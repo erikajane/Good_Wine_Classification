@@ -1,1 +1,3 @@
-# Good_-_Bad_Wine_Classification
+# Good or Bad Wine Classification
+
+## Introduction
