@@ -68,3 +68,30 @@ After binning our target variable, quality, into binary variables for good and b
  - _Good Wines_ on avergage, tend to have __higher Alcohol__ levels than _Bad Wines_
  - _Good Wines_ on avergage, tend to have __the same Density__ levels as _Bad Wines_
  - _Good Wines_ on avergage, tend to have __theh same pH__ levels as _Bad Wines_
+ 
+ #### Feature Correlation with Quality
+ 
+ ##### Insert Picture Here (RW_Feature_Correlation_with_Quality.png)
+ 
+ The features with the strongest correlation to Quality are as follows:
+ 
+ - alcohol (0.409926)
+ - volatile acidity (-0.267344)
+ - citric acid (0.203561)
+ - sulphates (0.201551)
+ - density (-0.158052)
+ 
+ ### White Wine
+ 
+ ## Modeling 
+ 
+ ### Red Wine
+ 
+ #### Handle Class Imbalance
+ 
+ Before we start modeling, the class imbalance within the dataset needs to be addressed. There are significantly more _Bad Wine_ observations than there are _Good Wine_ observations. After spliting the data, using 25% of the data for testing, the distribution of the trainng dataset is 135 _Good Wines_ and 884 _Bad Wines_. After upsampling the _Good Wines_, the number of _Good Wines_ in the training dataset is 263 and there are still 884 _Bad Wines.  
+
+  
+  
+ 
+ 
