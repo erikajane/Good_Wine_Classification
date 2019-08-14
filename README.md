@@ -25,7 +25,7 @@ From University of California, Irvine’s Machine Learning Repository, two datas
  - alcohol
  - quality
 
-Since the goal of this project is to determine whether a wine is good or bad, we will be trying to predict quality (scored between 1 and 10), using the other physiochemical features.
+Since the goal of this project is to determine whether a wine is good or bad, we will be trying to predict quality (scored between 1 and 10), using the other features included in the dataset.
 
 ## Data Preprocessing and Exploratory Data Analysis
 
@@ -45,3 +45,26 @@ After binning our target variable, quality, into binary variables for good and b
 
 ##### Insert Picture Here (Red_Wine_Good_Bad_Wine_Distribution_Stats.png)
 
+#### Fixed Acidity, Volatile Acidity and Citric Acid
+
+##### Insert Picture Here (Acid_vs_Quality.png)
+
+ - _Good Wines_ on avergage, tend to have slightly __higher Fixed Acidity__ levels than _Bad Wines_
+ - _Good Wines_ on avergage, tend to have __lower Volatile Acidity__ levels than _Bad Wines_
+ - _Good Wines_ on avergage, tend to have __higher Citric Acid__ levels than _Bad Wines_
+
+#### Sulphates, Free Sulfur Dioxide and Total Sulfur Dioxide
+
+##### Insert Picture Here (Sulfur_vs_Quality.png)
+
+ - _Good Wines_ on avergage, tend to have slightly __higher Sulphates__ levels than _Bad Wines_
+ - _Good Wines_ on avergage, tend to have __lower Free Sulfur Dioxide__ levels than _Bad Wines_
+ - _Good Wines_ on avergage, tend to have __lower Total Sulfur Dioxide__ levels than _Bad Wines_
+ 
+ #### Alcohol, Denisty and pH
+ 
+ ##### Insert Picture Here (Other_Features_vs_ Quality.png)
+
+ - _Good Wines_ on avergage, tend to have __higher Alcohol__ levels than _Bad Wines_
+ - _Good Wines_ on avergage, tend to have __the same Density__ levels as _Bad Wines_
+ - _Good Wines_ on avergage, tend to have __theh same pH__ levels as _Bad Wines_
