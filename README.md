@@ -25,4 +25,14 @@ From University of California, Irvine’s Machine Learning Repository, two datas
  - alcohol
  - quality
 
+Since the goal of this project is to determine whether a wine is good or bad, we will be trying to predict quality (scored between 1 and 10), using the other physiochemical features.
+
+## Data Preprocessing and Exploratory Data Analysis
+
+### Red Wine
+
+The red wine dataset included 1599 observations, but after dropping 240 duplicates, 1359 observations remain.
+
+Although, quality is scored on a scale of 1 through 10, we see that the red wine samples only scored quality scores between 3 and 8. The majority of wine had been given scores of 5 and 6.
+
 
