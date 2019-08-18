@@ -4,7 +4,7 @@
 
 When looking for a new wine to try, the hope is that you pick a good one. Unfortunately, you won't know that wine is good or not until you taste it. Luckily if you are able to obtain the physiochemical properties of the wine you intend on buying, you may be able to figure out if the wine is good or not.
 
-The goal of this project wass to determine if a _good wine_ could be predicted from its physiochemical properties.
+The goal of this project was to determine if a _good wine_ could be predicted from its physiochemical properties.
 
 ## The Data
 
@@ -23,11 +23,11 @@ From University of California, Irvine’s Machine Learning Repository, the datas
  - alcohol
  - quality
 
-Since the goal of this project is to determine whether a wine is good or bad, we will be trying to predict quality (scored between 1 and 10), using the other features included in the dataset.
+Since the goal of this project was to determine whether a wine was good or bad, I tried to predict quality (scored between 1 and 10), using the other features included in the dataset.
 
 ## Data Preprocessing and Exploratory Data Analysis
 
-The red wine dataset included 1599 observations, but after dropping 240 duplicates, 1359 observations remained.
+The red wine dataset included 1,599 observations, but after dropping 240 duplicates, 1,359 observations remained.
 
 Although, quality was scored on a scale of 1 through 10, the red wine samples only received quality scores between 3 and 8. The majority of wine had been given quality scores of 5 and 6.
 
@@ -85,11 +85,11 @@ Five models were employed; __Logistic Regression, Decision Tree, Random Forest, 
 
 ### Handle Class Imbalance
  
-Before modeling, the class imbalance within the dataset needed to be addressed. There were significantly more _bad wine_ observations than there were _good wine_ observations. After splitting the data, using 75% of the data for training, the distribution of the training dataset was 135 _good wines_ and 884 _bad wines_. After upsampling the _good wines_ by 195% of it’s original value, the number of _good wines_ in the training dataset became 263 and there still remained 884 _bad wines._ Although there was still class imbalance, it was better than what it was before and helped prevent the models over-predicting _bad wines_.
+Before modeling, the class imbalance within the dataset needed to be addressed. There were significantly more _bad wine_ observations than there were _good wine_ observations. After splitting the data, using 75% of the data for training, the distribution of the training dataset was 135 _good wines_ and 884 _bad wines_. After upsampling the _good wines_ by 195% of its original value, the number of _good wines_ in the training dataset became 263 while the _bad wine_ count reamained 884. Although there was still class imbalance, it was better than what it was before and helped prevent the models over-predicting _bad wines_.
 
 ### Best Model
 
-The best model for predicting _good red wines_ was the __SVM model using the original features__, with a __precision of 81.81%__ and an __accuracy of 89.7%__. When looking at the confusion matrix below we do see that the model over-predicted the _bad wines_ but that was to be expected with a dataset with a target as imbalanced as the one used here. With this model, one can buy a _good wine_ and be happy with their purchase 81.81% of the time, however this model will limit the number of _good wines_ it recommends.
+The best model for predicting _good red wines_ was the __SVM model using the original features__, with a __precision of 81.81%__ and an __accuracy of 89.7%__. When looking at the confusion matrix below we do see that the model over-predicted the _bad wines_ but that was to be expected with a target variable as imbalanced as the one used here. With this model, one can buy a _good wine_ and be happy with their purchase 81.81% of the time, however this model will limit the number of _good wines_ it recommends.
 
 ![Confusion_Matrix.png](https://github.com/erikajane/Good_Wine_Classification/blob/master/Images/Confusion_Matrix.png)
 
