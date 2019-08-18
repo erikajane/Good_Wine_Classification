@@ -32,6 +32,7 @@ The red wine dataset included 1599 observations, but after dropping 240 duplicat
 Although, quality was scored on a scale of 1 through 10, the red wine samples only received quality scores between 3 and 8. The majority of wine had been given quality scores of 5 and 6.
 
 ##### Insert Picture Here (Red_Wine_Quality_Distribution.png)
+![Red_Wine_Quality_Distribution.png](https://github.com/erikajane/Good_Wine_Classification/blob/master/Images/Red_Wine_Quality_Distribution.png)
 
 Since the goal was to classify a wine as good or bad, the target variable, quality, was turned into a binary feature. Wines with a quality of 6 and below were assigned a numeric value of __0__ and were considered _'bad wines'_ and wines with a quality score of 7 and above were reassigned a value of __1__ and were considered _'good wines'_.
 
