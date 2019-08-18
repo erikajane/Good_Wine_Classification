@@ -41,36 +41,32 @@ After binning the target variable, the dataset included __1,175 Bad Wines__ and 
 
 ![Red_Wine_Good_Bad_Wine_Distribution_Stats.png)](https://github.com/erikajane/Good_Wine_Classification/blob/master/Images/Red_Wine_Good_Bad_Wine_Distribution_Stats.png)
 
-#### Fixed Acidity, Volatile Acidity and Citric Acid
+### Fixed Acidity, Volatile Acidity and Citric Acid
 
-##### Insert Picture Here (RW_Acid_vs_Quality.png)
 ![RW_Acid_vs_Quality.png)](https://github.com/erikajane/Good_Wine_Classification/blob/master/Images/RW_Acid_vs_Quality.png)
 
  - _Good Wines_ on average, tended to have slightly __higher Fixed Acidity__ levels than _Bad Wines_
  - _Good Wines_ on average, tended to have __lower Volatile Acidity__ levels than _Bad Wines_
  - _Good Wines_ on average, tended to have __higher Citric Acid__ levels than _Bad Wines_
 
-#### Sulphates, Free Sulfur Dioxide and Total Sulfur Dioxide
+### Sulphates, Free Sulfur Dioxide and Total Sulfur Dioxide
 
-##### Insert Picture Here (RW_Sulfur_vs_Quality.png)
 ![RW_Sulfur_vs_Quality.png)](https://github.com/erikajane/Good_Wine_Classification/blob/master/Images/RW_Sulfur_vs_Quality.png)
 
  - _Good Wines_ on average, tended to have slightly __higher Sulphate__ levels than _Bad Wines_
  - _Good Wines_ on average, tended to have __lower Free Sulfur Dioxide__ levels than _Bad Wines_
  - _Good Wines_ on average, tended to have __lower Total Sulfur Dioxide__ levels than _Bad Wines_
  
- #### Alcohol, Denisty and pH
+### Alcohol, Denisty and pH
  
- ##### Insert Picture Here (RW_Other_Features_vs_ Quality.png)
- ![RW_Other_Features_vs_ Quality.png](https://github.com/erikajane/Good_Wine_Classification/blob/master/Images/RW_Other_Features_vs_%20Quality.png)
+![RW_Other_Features_vs_ Quality.png](https://github.com/erikajane/Good_Wine_Classification/blob/master/Images/RW_Other_Features_vs_%20Quality.png)
 
  - _Good Wines_ on average, tended to have __higher Alcohol__ levels than _Bad Wines_
  - _Good Wines_ on average, tended to have __the same Density__ levels as _Bad Wines_
  - _Good Wines_ on average, tended to have __the same pH__ levels as _Bad Wines_
  
- #### Feature Correlation with Quality
- 
- ##### Insert Picture Here (RW_Feature_Correlation_with_Quality.png)
+### Feature Correlation with Quality
+
 ![RW_Feature_Correlation_with_Quality.png](https://github.com/erikajane/Good_Wine_Classification/blob/master/Images/RW_Feature_Correlation_with_Quality.png)
  
  The features with the strongest correlation to Quality are as follows:
@@ -95,7 +91,6 @@ Before modeling, the class imbalance within the dataset needed to be addressed. 
 
 The best model for predicting _good red wines_ was the __SVM model using the original features__, with a __precision of 81.81%__ and an __accuracy of 89.7%__. When looking at the confusion matrix below we do see that the model over-predicted the _bad wines_ but that was to be expected with a dataset with a target as imbalanced as the one used here. With this model, one can buy a _good wine_ and be happy with their purchase 81.81% of the time, however this model will limit the number of _good wines_ it recommends.
 
-##### Insert Picture Here (RW_Confusion_Matrix.png)
 ![Confusion_Matrix.png](https://github.com/erikajane/Good_Wine_Classification/blob/master/Images/Confusion_Matrix.png)
 
   
